@@ -2,6 +2,18 @@
 
 ## Command Reference
 
+### Initial Setup
+
+**Set up a new vault**:
+```
+/setup
+```
+
+Or for an interactive walkthrough:
+```
+Set up my vault
+```
+
 ### Daily Commands
 
 **Capture a thought**:

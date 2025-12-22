@@ -5,6 +5,7 @@
     "name": "rogarcia"
   },
   "commands": [
+    "./commands/setup.md",
     "./commands/capture.md",
     "./commands/process-inbox.md",
     "./commands/process-fleeting.md",
@@ -12,11 +13,13 @@
     "./commands/link-notes.md"
   ],
   "agents": [
+    "./agents/setup-wizard.md",
     "./agents/note-processor.md",
     "./agents/link-suggester.md",
-    "./agents/moc-maintainer.md"  
+    "./agents/moc-maintainer.md"
   ],
   "skills": [
+    "./skills/vault-setup/SKILL.md",
     "./skills/zettelkasten-workflow/SKILL.md",
     "./skills/note-processing/SKILL.md"
   ]

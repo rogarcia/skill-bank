@@ -13,18 +13,35 @@ This plugin helps you:
 
 ## Components
 
-### Skills (2)
+### Skills (3)
 
 Skills provide deep domain knowledge that powers all other components:
 
 1. **`zettelkasten-workflow`** - Deep knowledge of Zettelkasten methodology, best practices, and your vault structure
 2. **`note-processing`** - Specialized guidance for converting fleeting → literature → permanent notes
+3. **`vault-setup`** - Knowledge of vault structure, templates, and setup process
 
 **When to use**: Skills are invoked automatically by commands and agents, but you can also use them directly when asking methodological questions.
 
-### Commands (5)
+### Commands (6)
 
 Quick, guided workflows for common tasks:
+
+#### `/setup`
+Initialize a new Zettelkasten vault with the standard directory structure and templates.
+
+**When to use**: Once, when setting up a fresh Obsidian vault
+
+**What it does**:
+- Validates no existing structure exists
+- Creates directory structure (fleeting/, literature/, permanent/, maps-of-content/, projects/, templates/)
+- Creates inbox.md for quick captures
+- Creates 4 note templates (fleeting, literature, permanent, MOC)
+
+**Usage**:
+```
+/setup
+```
 
 #### `/capture [text]`
 Intelligent capture assistant that helps you decide between:
@@ -106,9 +123,30 @@ Analyze a note and suggest meaningful connections.
 /link-notes  (will prompt for path)
 ```
 
-### Agents (3)
+### Agents (4)
 
 Autonomous agents for complex, batch operations:
+
+#### `setup-wizard`
+Interactive vault setup with explanations and progress tracking.
+
+**When to use**:
+- Setting up a fresh vault for the first time
+- Want an educational walkthrough of the structure
+- Prefer guided setup over quick command
+
+**What it does**:
+- Validates vault is ready for setup
+- Creates complete directory structure with explanations
+- Creates inbox and all templates
+- Provides orientation and next steps
+
+**How to invoke**:
+```
+Set up my vault
+Initialize my zettelkasten
+Create vault structure
+```
 
 #### `note-processor`
 Autonomously processes inbox and fleeting notes into permanent knowledge.
