@@ -1,0 +1,23 @@
+{
+  "name": "zettelkasten-assistant",
+  "description": "Comprehensive assistant for Zettelkasten knowledge management in Obsidian. Provides intelligent capture, processing workflows, and autonomous agents for maintaining your knowledge base.",
+  "author": {
+    "name": "rogarcia"
+  },
+  "commands": [
+    "./commands/capture.md",
+    "./commands/process-inbox.md",
+    "./commands/process-fleeting.md",
+    "./commands/create-moc.md",
+    "./commands/link-notes.md"
+  ],
+  "agents": [
+    "./agents/note-processor.md",
+    "./agents/link-suggester.md",
+    "./agents/moc-maintainer.md"  
+  ],
+  "skills": [
+    "./skills/zettelkasten-workflow/SKILL.md",
+    "./skills/note-processing/SKILL.md"
+  ]
+}

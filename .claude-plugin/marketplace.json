@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skill-issue",
+  "owner": {
+    "name": "rogarcia"
+  },
+  "plugins": [
+    {
+      "name": "zettelkasten-assistant",
+      "description": "Comprehensive assistant for Zettelkasten knowledge management in Obsidian. Provides intelligent capture, processing workflows, and autonomous agents for maintaining your knowledge base.",
+      "author": {
+        "name": "rogarcia"
+      },
+      "source": "./plugins/zettelkasten-assistant",
+      "category": "productivity",
+      "homepage": "https://github.com/rogarcia/skill-issue/tree/main/plugins/zettelkasten-assistant"
+    }
+  ]
+}
