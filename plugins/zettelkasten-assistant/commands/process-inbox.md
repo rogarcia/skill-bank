@@ -128,7 +128,7 @@ Summary:
 
 Time: ~[estimated] minutes
 
-Your inbox is now clear! 🎉
+Your inbox is now clear!
 
 Remember:
 - Process fleeting notes weekly with /process-fleeting

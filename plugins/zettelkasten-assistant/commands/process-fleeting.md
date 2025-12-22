@@ -29,11 +29,11 @@ Guide the user through processing fleeting notes systematically, helping them bu
 ```
 Found [N] fleeting notes to process:
 
-📝 Older (>7 days):
+Older (>7 days):
 1. [note-name.md] - Created [date] ([age] days ago)
 2. [note-name.md] - Created [date] ([age] days ago)
 
-📝 This week (1-7 days):
+This week (1-7 days):
 3. [note-name.md] - Created [date] ([age] days ago)
 4. [note-name.md] - Created [date] ([age] days ago)
 
