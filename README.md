@@ -1,4 +1,4 @@
-# Skill Issue Marketplace
+# Skill Bank Marketplace
 
 A collection of plugins that extend [Claude Code](https://claude.ai/code) with new capabilities, commands, and autonomous agents.
 
