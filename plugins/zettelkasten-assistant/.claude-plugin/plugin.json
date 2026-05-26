@@ -19,8 +19,8 @@
     "./agents/moc-maintainer.md"
   ],
   "skills": [
-    "./skills/vault-setup/SKILL.md",
-    "./skills/zettelkasten-workflow/SKILL.md",
-    "./skills/note-processing/SKILL.md"
+    "./skills/vault-setup",
+    "./skills/zettelkasten-workflow",
+    "./skills/note-processing"
   ]
 }
