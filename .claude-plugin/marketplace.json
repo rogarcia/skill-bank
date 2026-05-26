@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "skill-issue",
+  "name": "skill-bank",
   "owner": {
     "name": "rogarcia"
   },
@@ -13,7 +13,7 @@
       },
       "source": "./plugins/zettelkasten-assistant",
       "category": "productivity",
-      "homepage": "https://github.com/rogarcia/skill-issue/tree/main/plugins/zettelkasten-assistant"
+      "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/zettelkasten-assistant"
     }
   ]
 }
