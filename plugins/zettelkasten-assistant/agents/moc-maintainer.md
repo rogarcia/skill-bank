@@ -1,8 +1,8 @@
 ---
 name: moc-maintainer
-description: Maintain and update Maps of Content with new notes and improved organization
-when: Use this agent when the user asks to "update MOCs", "organize maps of content", "maintain navigation hubs", or when permanent notes have been added but MOCs haven't been updated. Also use when vault has grown significantly (50+ permanent notes).
-tools: [Read, Edit, Write, Glob, Grep, TodoWrite]
+description: "Maintain and update Maps of Content with new notes and improved organization. Use when the user asks to 'update MOCs', 'organize maps of content', 'maintain navigation hubs', or when permanent notes have been added but MOCs haven't been updated. Also use when vault has grown significantly (50+ permanent notes)."
+tools: Read, Edit, Write, Glob, Grep, TodoWrite
+model: inherit
 color: green
 ---
 

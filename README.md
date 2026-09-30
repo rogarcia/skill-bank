@@ -13,15 +13,11 @@ A collection of plugins that extend [Claude Code](https://claude.ai/code) with n
 Install plugins from this marketplace using Claude Code's plugin system:
 
 ```bash
-# Install a specific plugin
-claude plugins add rogarcia/skill-issue:zettelkasten-assistant
+claude plugin marketplace add rogarcia/skill-bank
+claude plugin install zettelkasten-assistant@skill-bank
 ```
 
-Or install from the plugin's directory URL:
-
-```bash
-claude plugins add https://github.com/rogarcia/skill-issue/tree/main/plugins/zettelkasten-assistant
-```
+Inside a session, use `/plugin marketplace add rogarcia/skill-bank` and `/plugin install zettelkasten-assistant@skill-bank`.
 
 ## Plugin Architecture
 
@@ -31,16 +27,16 @@ Each plugin in this marketplace follows the Claude Code plugin structure:
 plugin-name/
 ├── .claude-plugin/
 │   └── plugin.json      # Plugin manifest
-├── commands/            # Slash commands (/command-name)
-├── agents/              # Autonomous task agents
-├── skills/              # Domain knowledge definitions
+├── commands/            # Slash commands (auto-discovered)
+├── agents/              # Subagents (auto-discovered)
+├── skills/              # Skills (auto-discovered, one dir per SKILL.md)
 └── README.md            # Plugin documentation
 ```
 
 ### Components
 
 - **Commands** - User-invocable slash commands for guided workflows
-- **Agents** - Autonomous agents that trigger on natural language requests
+- **Agents** - Subagents Claude delegates to based on their `description`
 - **Skills** - Domain knowledge that powers commands and agents
 
 ## Contributing
@@ -58,7 +54,8 @@ Want to add a plugin to this marketplace?
 - Include a comprehensive `README.md` with usage examples
 - Use lowercase with hyphens for filenames: `example-name.md`
 - Keep command descriptions concise but informative
-- Document when agents should trigger
+- Put trigger conditions in each agent and skill `description` (there is no `when` field)
+- Declare `version`, `license` and `keywords` in `plugin.json`; omit component arrays when using the default directories
 - Test all commands and agents before submitting
 
 ## License

@@ -1,8 +1,8 @@
 ---
 name: link-suggester
-description: Deep analysis to discover and suggest meaningful connections between notes
-when: Use this agent when the user asks to "find connections", "link my notes", "discover relationships", "improve linking", or wants to strengthen the knowledge network. Also when permanent/ has many notes (30+) with sparse linking.
-tools: [Read, Edit, Glob, Grep, TodoWrite]
+description: "Deep analysis to discover and suggest meaningful connections between notes. Use when the user asks to 'find connections', 'link my notes', 'discover relationships', 'improve linking', or wants to strengthen the knowledge network. Also when permanent/ has many notes (30+) with sparse linking."
+tools: Read, Edit, Glob, Grep, TodoWrite
+model: inherit
 color: purple
 ---
 

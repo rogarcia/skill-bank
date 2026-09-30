@@ -1,13 +1,13 @@
 ---
 name: codex-router
-description: "Route implementation work to Codex CLI; Claude specs, reviews, verifies."
+description: "Delegate bulk implementation work (refactors, migrations, bug fixes with a repro, tests, CI fixes) to the Codex CLI while Claude writes the spec and reviews the diff. Use in Claude Code sessions when a coding task is mechanical or well specified."
 ---
 
 # Codex Router
 
 Claude Code sessions only. Codex/other harnesses: skip; never self-delegate.
 
-Rationale: Claude Fable 5 is the most intelligent model but is not available as part of subscription (consumes usage credits; expensive);  Claude Opus/Sonnet included in subscription with weekly limits but underperform in certain use cases; Codex subscriptipn has generous weekly token limits. GPT-5.5+ is usually the better and faster model at writing/implementing code; Claude wins at ergonomics — judgment, design, spec-writing, review, orchestration. So Codex types, Claude thinks and verifies.
+Rationale: Claude Fable 5 is the most intelligent model but is not available as part of subscription (consumes usage credits; expensive); Claude Opus/Sonnet included in subscription with weekly limits but underperform in certain use cases; Codex subscription has generous weekly token limits. GPT-5.5+ is usually the better and faster model at writing/implementing code; Claude wins at ergonomics — judgment, design, spec-writing, review, orchestration. So Codex types, Claude thinks and verifies.
 
 ## Route
 

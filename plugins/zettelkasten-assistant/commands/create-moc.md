@@ -1,11 +1,7 @@
 ---
 name: create-moc
 description: Create new Map of Content with proper structure and organization
-arguments:
-  topic:
-    type: string
-    description: The topic or domain for the new MOC (optional - will prompt if not provided)
-    required: false
+argument-hint: "[topic]"
 ---
 
 # Create MOC Command
@@ -28,15 +24,15 @@ You are helping the user create a new Map of Content (MOC) for their knowledge b
 
 ## Your Task
 
-{{#if topic}}
-The user wants to create a MOC for: "{{topic}}"
-{{else}}
+If `$ARGUMENTS` is not empty, use it as the input:
+The user wants to create a MOC for: "$ARGUMENTS"
+
+Otherwise:
 The user wants to create a MOC but hasn't specified the topic yet.
 
 First, ask: "What topic or domain would you like to create a MOC for?"
 
 Wait for their response before proceeding.
-{{/if}}
 
 ## Workflow
 

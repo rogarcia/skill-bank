@@ -1,8 +1,8 @@
 ---
 name: note-processor
-description: Autonomously process inbox and fleeting notes into permanent knowledge
-when: Use this agent when the user asks to "process my notes", "clean up my captures", "synthesize fleeting notes", or wants automated help converting temporary notes to permanent knowledge. Also use when inbox has 10+ bullets or fleeting folder has 10+ notes.
-tools: [Read, Write, Edit, Glob, Grep, TodoWrite]
+description: "Autonomously process inbox and fleeting notes into permanent knowledge. Use when the user asks to 'process my notes', 'clean up my captures', 'synthesize fleeting notes', or wants automated help converting temporary notes to permanent knowledge. Also use when inbox has 10+ bullets or fleeting folder has 10+ notes."
+tools: Read, Write, Edit, Glob, Grep, TodoWrite
+model: inherit
 color: blue
 ---
 

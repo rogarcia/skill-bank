@@ -1,6 +1,6 @@
 ---
 name: vault-setup
-description: Knowledge of vault structure, templates, and setup process. Use when setting up a new vault, validating vault structure, or referencing standard templates for notes.
+description: Canonical vault structure, file templates and setup procedure for the Zettelkasten assistant. Use when setting up or validating a vault, or when a standard note template is needed.
 ---
 
 # Vault Setup Knowledge

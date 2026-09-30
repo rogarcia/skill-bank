@@ -1,26 +1,18 @@
 {
   "name": "zettelkasten-assistant",
+  "version": "1.0.0",
   "description": "Comprehensive assistant for Zettelkasten knowledge management in Obsidian. Provides intelligent capture, processing workflows, and autonomous agents for maintaining your knowledge base.",
   "author": {
     "name": "rogarcia"
   },
-  "commands": [
-    "./commands/setup.md",
-    "./commands/capture.md",
-    "./commands/process-inbox.md",
-    "./commands/process-fleeting.md",
-    "./commands/create-moc.md",
-    "./commands/link-notes.md"
-  ],
-  "agents": [
-    "./agents/setup-wizard.md",
-    "./agents/note-processor.md",
-    "./agents/link-suggester.md",
-    "./agents/moc-maintainer.md"
-  ],
-  "skills": [
-    "./skills/vault-setup",
-    "./skills/zettelkasten-workflow",
-    "./skills/note-processing"
+  "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/zettelkasten-assistant",
+  "repository": "https://github.com/rogarcia/skill-bank",
+  "license": "MIT",
+  "keywords": [
+    "zettelkasten",
+    "obsidian",
+    "notes",
+    "pkm",
+    "knowledge-management"
   ]
 }

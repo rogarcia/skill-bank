@@ -13,7 +13,18 @@
       },
       "source": "./plugins/zettelkasten-assistant",
       "category": "productivity",
-      "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/zettelkasten-assistant"
+      "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/zettelkasten-assistant",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": [
+        "zettelkasten",
+        "obsidian",
+        "notes",
+        "pkm",
+        "knowledge-management"
+      ],
+      "repository": "https://github.com/rogarcia/skill-bank"
     }
-  ]
+  ],
+  "description": "Claude Code plugins and skills by rogarcia."
 }

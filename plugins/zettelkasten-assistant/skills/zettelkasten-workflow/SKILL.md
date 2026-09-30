@@ -1,6 +1,6 @@
 ---
 name: zettelkasten-workflow
-description: Deep knowledge of Zettelkasten methodology, best practices, and vault structure. Use when user asks about Zettelkasten principles, workflow optimization, or how to organize their knowledge base.
+description: Zettelkasten methodology, best practices and this vault structure. Use when the user asks about Zettelkasten principles, workflow optimization or how to organize their knowledge base.
 ---
 
 # Zettelkasten Workflow Skill

@@ -1,8 +1,8 @@
 ---
 name: setup-wizard
-description: Interactive vault setup with explanations and progress tracking
-when: Use when user asks to "set up my vault", "initialize my zettelkasten", "create vault structure", "start fresh with zettelkasten", or mentions wanting to begin using the Zettelkasten system for the first time.
-tools: [Read, Write, Glob, Bash, TodoWrite]
+description: "Interactive vault setup with explanations and progress tracking. Use when user asks to 'set up my vault', 'initialize my zettelkasten', 'create vault structure', 'start fresh with zettelkasten', or mentions wanting to begin using the Zettelkasten system for the first time."
+tools: Read, Write, Glob, Bash, TodoWrite
+model: inherit
 color: green
 ---
 

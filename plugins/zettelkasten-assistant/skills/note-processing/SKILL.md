@@ -1,6 +1,6 @@
 ---
 name: note-processing
-description: Specialized guidance for processing notes through the capture → fleeting → permanent pipeline. Use when helping convert or refine notes at any stage.
+description: Guidance for processing notes through the capture, fleeting, permanent pipeline. Use when converting, refining or promoting inbox bullets, fleeting notes or permanent notes.
 ---
 
 # Note Processing Skill

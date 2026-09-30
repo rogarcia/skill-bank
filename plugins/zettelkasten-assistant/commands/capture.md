@@ -1,11 +1,7 @@
 ---
 name: capture
 description: Intelligent capture assistant - helps decide between inbox bullets and fleeting notes
-arguments:
-  text:
-    type: string
-    description: The thought or idea to capture (optional - will prompt if not provided)
-    required: false
+argument-hint: "[text]"
 ---
 
 # Capture Command
@@ -29,15 +25,15 @@ This user follows a two-stage capture workflow:
 
 ## Your Task
 
-{{#if text}}
-The user wants to capture: "{{text}}"
-{{else}}
+If `$ARGUMENTS` is not empty, use it as the input:
+The user wants to capture: "$ARGUMENTS"
+
+Otherwise:
 The user wants to capture something but hasn't provided the text yet.
 
 First, ask them: "What would you like to capture?"
 
 Wait for their response before proceeding.
-{{/if}}
 
 ## Decision Process
 

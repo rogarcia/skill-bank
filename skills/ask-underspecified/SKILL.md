@@ -1,6 +1,7 @@
 ---
-name: ask-questions-if-underspecified
-description: Clarify requirements before implementing. Do not use automatically, only when invoked explicitly.
+name: ask-underspecified
+description: Ask a minimal set of clarifying questions before implementing an underspecified request. Invoke explicitly with /ask-underspecified.
+disable-model-invocation: true
 ---
 
 # Ask Questions If Underspecified

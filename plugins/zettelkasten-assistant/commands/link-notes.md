@@ -1,11 +1,7 @@
 ---
 name: link-notes
 description: Analyze a note and suggest relevant connections across the vault
-arguments:
-  note-path:
-    type: string
-    description: Path to the note to analyze (optional - will prompt if not provided)
-    required: false
+argument-hint: "[note-path]"
 ---
 
 # Link Notes Command
@@ -28,15 +24,15 @@ You are helping the user discover and create meaningful connections between note
 
 ## Your Task
 
-{{#if note-path}}
-The user wants to find connections for: "{{note-path}}"
-{{else}}
+If `$ARGUMENTS` is not empty, use it as the input:
+The user wants to find connections for: "$ARGUMENTS"
+
+Otherwise:
 The user wants to find connections for a note but hasn't specified which one.
 
 First, ask: "Which note would you like to analyze for connections?"
 
 Wait for their response before proceeding.
-{{/if}}
 
 ## Workflow
 
