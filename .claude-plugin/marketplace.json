@@ -14,6 +14,16 @@
       "source": "./plugins/zettelkasten-assistant",
       "category": "productivity",
       "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/zettelkasten-assistant"
+    },
+    {
+      "name": "harness-bridge",
+      "description": "Run Claude Code subagents on other harnesses (Codex CLI, pi) so pstack arena runners and cross-judges can use non-Claude models.",
+      "author": {
+        "name": "rogarcia"
+      },
+      "source": "./plugins/harness-bridge",
+      "category": "development",
+      "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/harness-bridge"
     }
   ]
 }
