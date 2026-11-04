@@ -1,0 +1,11 @@
+{
+  "name": "harness-bridge",
+  "version": "0.1.0",
+  "description": "Run Claude Code subagents on other harnesses (Codex CLI, pi) so pstack arena runners and cross-judges can use non-Claude models. Ships the harness-adapter skill, the harness-wrapper agent, and a SessionStart hook that routes codex: and pi: entries in pstack-models.md.",
+  "author": {
+    "name": "rogarcia"
+  },
+  "homepage": "https://github.com/rogarcia/skill-bank/tree/main/plugins/harness-bridge",
+  "license": "MIT",
+  "keywords": ["pstack", "codex", "pi", "openrouter", "multi-model", "arena"]
+}

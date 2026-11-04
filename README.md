@@ -7,6 +7,7 @@ A collection of plugins that extend [Claude Code](https://claude.ai/code) with n
 | Plugin | Category | Description |
 |--------|----------|-------------|
 | [zettelkasten-assistant](./plugins/zettelkasten-assistant/) | Productivity | Comprehensive assistant for Zettelkasten knowledge management in Obsidian. Provides intelligent capture, processing workflows, and autonomous agents for maintaining your knowledge base. |
+| [harness-bridge](./plugins/harness-bridge/) | Development | Run Claude Code subagents on other harnesses (Codex CLI, pi) so pstack arena runners and cross-judges can use non-Claude models. |
 
 ## Installation
 
