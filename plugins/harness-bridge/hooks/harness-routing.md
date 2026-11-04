@@ -4,8 +4,8 @@ This rule extends pstack's Claude Code adapter (`docs/harness/claude-code.md`, M
 
 ## Value forms
 
-- `codex:<model> <effort>`, such as `codex:gpt-6.1-sol xhigh`, runs the seat on the Codex CLI.
-- `pi:<provider>/<model> <effort>`, such as `pi:openrouter/deepseek/deepseek-v4.1-flash-1017 xhigh`, runs the seat on the pi CLI.
+- `codex:<model> <effort>`, such as `codex:gpt-6.1-sol high`, runs the seat on the Codex CLI.
+- `pi:<provider>/<model> <effort>`, such as `pi:openrouter/deepseek/deepseek-v4.1-flash-1017 max`, runs the seat on the pi CLI.
 
 For these values, do not apply the adapter row that maps a non-Claude slug to "omit `model`". The seat is a real non-Claude seat and must not fall back to the session model unless its spawn fails (see Failure).
 
